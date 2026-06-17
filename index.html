@@ -373,12 +373,11 @@ function loadBookings() {
                 calendar = new FullCalendar.Calendar(calendarEl, {
                     initialView: window.innerWidth < 768 ? 'listMonth' : 'dayGridMonth', // มือถือให้แสดงเป็น List อัตโนมัติ
                     headerToolbar: {
-                        left: 'prev,next today',
+                        left: 'prev,next ',
                         center: 'title',
                         right: 'dayGridMonth,timeGridWeek,listMonth'
                     },
                     buttonText: {
-                        today: 'วันนี้',
                         month: 'เดือน',
                         week: 'สัปดาห์',
                         list: 'รายการ'
